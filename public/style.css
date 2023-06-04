@@ -193,6 +193,10 @@ nav {
 /* Extra small */
 @media (width<576px) {
 
+    .search-container input {
+        width: 90%;
+    }
+
     .blog h1,
     .friendship-blog h1 {
         font-size: 30px;
