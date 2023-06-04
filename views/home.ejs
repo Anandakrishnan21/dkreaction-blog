@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+
+<div class="home-section">
+    <div class="container">
+        <div class="search-container">
+            <form action="" method="POST">
+                <input type="text" class="search" >
+                <button type="button">Search</button>
+            </form>
+        </div>
+        <div class="tag-section">
+            <% buttons.forEach((button) => { %>
+                <button type="button">
+                    <span class="btn-name"><%= button %></span>
+                    <span class="color-box"></span>
+                </button>
+            <%}); %>
+        </div>
+    </div>
+    <%- include('partials/shortBlog') %>
+</div>

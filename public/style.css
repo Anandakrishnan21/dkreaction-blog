@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.brand-title {
+    color: #00C4FF;
+}
+
+/* HOME */
+
+.home-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* SEARCH */
+.search-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-container input {
+    width: 600px;
+    height: 35px;
+    padding: 1rem;
+}
+
+.search-container button {
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00C4FF;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/* TAG */
+.tag-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tag-section button,
+.blog .tag,
+.friendship-blog .tag {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.tag-section .btn-name,
+.blog .tag,
+.friendship-blog .tag {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tag-section button .color-box {
+    width: 20px;
+    height: 100%;
+    background-color: #213555;
+}
+
+/* SHORT BLOG */
+.blog-container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blog h1,
+.friendship-blog h1 {
+    font-family: 'Geologica', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.blog .date,
+.friendship-blog .date {
+    color: #a5a5a5;
+    font-size: 18px;
+}
+
+.blog .tag,
+.friendship-blog .tag {
+    width: 120px;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.blog p,
+.friendship-blog p {
+    color: #5c5c5c;
+}
+
+/* FULL BLOG */
+.blog-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.friendship-blog {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.read {
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: #00C4FF;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+/* Small */
+@media (width<768px) {
+
+    .container,
+    .friendship-blog,
+    .blog-container {
+        width: 80%;
+    }
+
+    .blog h1,
+    .friendship-blog h1 {
+        font-size: 35px;
+    }
+}
+
+/* Extra small */
+@media (width<576px) {
+
+    .blog h1,
+    .friendship-blog h1 {
+        font-size: 30px;
+        font-weight: 400px;
+    }
+}
