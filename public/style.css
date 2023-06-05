@@ -78,7 +78,8 @@ nav {
 
 .tag-section button,
 .blog .tag,
-.friendship-blog .tag {
+.friendship-blog .tag,
+.childhood-blog .tag {
     height: 30px;
     display: flex;
     flex-direction: row;
@@ -92,7 +93,8 @@ nav {
 
 .tag-section .btn-name,
 .blog .tag,
-.friendship-blog .tag {
+.friendship-blog .tag,
+.childhood-blog .tag {
     padding: 15px;
     font-size: 18px;
     font-weight: 600;
@@ -119,27 +121,31 @@ nav {
 }
 
 .blog h1,
-.friendship-blog h1 {
+.friendship-blog h1,
+.childhood-blog h1 {
     font-family: 'Geologica', sans-serif;
     font-size: 35px;
     font-weight: 600;
 }
 
 .blog .date,
-.friendship-blog .date {
+.friendship-blog .date,
+.childhood-blog .date {
     color: #a5a5a5;
     font-size: 18px;
 }
 
 .blog .tag,
-.friendship-blog .tag {
+.friendship-blog .tag,
+.childhood-blog .tag {
     width: 120px;
     justify-content: center;
     background-color: #fff;
 }
 
 .blog p,
-.friendship-blog p {
+.friendship-blog p,
+.childhood-blog p {
     color: #5c5c5c;
 }
 
@@ -157,7 +163,8 @@ nav {
     gap: 10px;
 }
 
-.friendship-blog {
+.friendship-blog,
+.childhood-blog {
     width: 700px;
     display: flex;
     flex-direction: column;
@@ -180,12 +187,14 @@ nav {
 
     .container,
     .friendship-blog,
-    .blog-container {
+    .blog-container,
+    .childhood-blog {
         width: 80%;
     }
 
     .blog h1,
-    .friendship-blog h1 {
+    .friendship-blog h1,
+    .childhood-blog h1 {
         font-size: 35px;
     }
 }
@@ -198,7 +207,8 @@ nav {
     }
 
     .blog h1,
-    .friendship-blog h1 {
+    .friendship-blog h1,
+    .childhood-blog h1 {
         font-size: 30px;
         font-weight: 400px;
     }
