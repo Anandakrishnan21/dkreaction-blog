@@ -96,7 +96,7 @@ nav {
 .friendship-blog .tag,
 .childhood-blog .tag {
     padding: 15px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -138,7 +138,7 @@ nav {
 .blog .tag,
 .friendship-blog .tag,
 .childhood-blog .tag {
-    width: 120px;
+    width: 100px;
     justify-content: center;
     background-color: #fff;
 }
